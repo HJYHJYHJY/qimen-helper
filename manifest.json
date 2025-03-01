@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "奇门择日助手",
+  "version": "1.0",
+  "description": "自动计算吉时吉方",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png",
+    "default_title": "奇门择日助手",
+    "default_area": "navbar" // 确保弹出窗口大小固定
+  },
+  "permissions": [],
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
